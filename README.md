@@ -23,7 +23,7 @@
 💬 **Pokedex** - aplicação criada para procurar todos os Pokémon existente no anime.
 
 Ao pesquisar pelo Pokémon desejado, um card com nome, número de identificação, tipo principal e foto iram aparecer
-****
+
 ---
 
 ## Como executar o projeto
