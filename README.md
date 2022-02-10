@@ -5,7 +5,7 @@
 </p>
 
 <h1 align="center">
-  <img src="https://awesomescreenshot.s3.amazonaws.com/image/2911329/21710926-db4d129cf00d9a6dd4838864d2e96942.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJSCJQ2NM3XLFPVKA%2F20220207%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20220207T182145Z&X-Amz-Expires=28800&X-Amz-SignedHeaders=host&X-Amz-Signature=9c34a39847555c8292c6a61f192dee8b9a51ded3ffc25b4077bf44a1e1a9dba2" alt="ReactJS Pokedex">
+  <img src="public/banner.png" alt="ReactJS Pokedex">
 </h1>
 
 <h3 align="center">ReactJS Pokedex</h3>
