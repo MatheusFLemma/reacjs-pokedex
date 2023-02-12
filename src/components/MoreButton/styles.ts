@@ -11,6 +11,8 @@ export const ButtonContainer = styled.button`
   justify-content: center;
   gap: 0.25rem;
 
+  font-family: "Source Sans Pro", sans-serif;
+
   margin-top: 1rem;
   padding: 0.5rem 1rem;
 

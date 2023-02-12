@@ -1,7 +1,11 @@
-import styled from "styled-components";
+import styled, { css } from "styled-components";
 
 interface CardProps {
   pokemonPrincipalType: string;
+}
+
+interface CardContainerProps {
+  isSingle?: boolean;
 }
 
 export const Container = styled.div`
@@ -13,10 +17,34 @@ export const Container = styled.div`
   align-items: center;
 `;
 
-export const CardContainer = styled.div`
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 1rem;
+export const CardContainer = styled.div<CardContainerProps>`
+  ${({ isSingle }) => {
+    if (isSingle) {
+      return css`
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      `;
+    } else {
+      return css`
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1rem;
+
+        @media screen and (max-width: 992px) {
+          grid-template-columns: repeat(2, 1fr);
+        }
+
+        @media screen and (max-width: 768px) {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          width: 100%;
+        }
+      `;
+    }
+  }}
 
   margin-top: 2rem;
 `;
@@ -29,6 +57,11 @@ export const Card = styled.div<CardProps>`
 
   padding: 1.375rem 2rem;
   background-color: ${({ theme, pokemonPrincipalType }) => theme.colors[pokemonPrincipalType]};
+
+  @media screen and (max-width: 768px) {
+    max-width: initial;
+    width: 100%;
+  }
 `;
 
 export const CardInformation = styled.div`

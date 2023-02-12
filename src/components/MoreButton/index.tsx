@@ -2,8 +2,7 @@ import { useRecoilState } from "recoil";
 
 import * as S from "./styles";
 
-import { TbCirclePlus } from "react-icons/tb";
-import { ImSpinner9 } from "react-icons/im";
+import { TbCirclePlus, TbError404 } from "react-icons/tb";
 
 import { atomPokemonOffset } from "../../store/atoms";
 
