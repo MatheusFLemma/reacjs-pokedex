@@ -5,7 +5,7 @@
 </p>
 
 <h1 align="center">
-  <img src="public/banner.png" alt="ReactJS Pokedex">
+  <img src=".github/banner.png" alt="ReactJS Pokedex">
 </h1>
 
 <h3 align="center">ReactJS Pokedex</h3>
@@ -55,10 +55,10 @@ Além disso, um bom editor para trabalhar com código como [VSCode](https://code
 O projeto foi desenvolvido utilizando as seguintes tecnologias
 
 <p align="center">
-<a href="https://www.javascript.com/" rel="external" target="_blank"><img src="https://img.shields.io/badge/JavaScript-181818?style=for-the-badge&logo=JavaScript"/></a>&nbsp;&nbsp;&nbsp;
+<a href="https://www.typescriptlang.org/" rel="external" target="_blank"><img src="https://img.shields.io/badge/TypeScript-262626?style=for-the-badge&logo=TypeScript"/></a>&nbsp;&nbsp;&nbsp;
 <a href="https://pt-br.reactjs.org/" rel="external" target="_blank"><img src="https://img.shields.io/badge/ReactJS-282C34?style=for-the-badge&logo=react"/></a>&nbsp;&nbsp;&nbsp;
 <a href="https://vitejs.dev/" rel="external" target="_blank"><img src="https://img.shields.io/badge/Vite-efefef?style=for-the-badge&logo=Vite"/></a>&nbsp;&nbsp;&nbsp;
 <a href="https://styled-components.com/" rel="external" target="_blank"><img src="https://img.shields.io/badge/styled components-3C3C3C?style=for-the-badge&logo=styled-components"/></a>&nbsp;&nbsp;&nbsp;
 <a href="https://axios-http.com/" rel="external" target="_blank"><img src="https://img.shields.io/badge/Axios-5A29E4?style=for-the-badge"/></a>&nbsp;&nbsp;&nbsp;
-<a href="https://vercel.com/home?utm_source=next-site&utm_medium=banner&utm_campaign=next-website" rel="external" target="_blank"><img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel"/></a>
+<a href="https://vercel.com/home" rel="external" target="_blank"><img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel"/></a>
 </p>
