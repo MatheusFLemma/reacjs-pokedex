@@ -1,4 +1,5 @@
 import { createGlobalStyle } from "styled-components";
+import { theme } from "./theme"
 
 export default createGlobalStyle`
   * {
@@ -14,9 +15,8 @@ export default createGlobalStyle`
     align-items: center;
     justify-content: center;
     flex-direction: column;
-
-    background: ${({ theme }) => theme.colors.background};
-    color: ${({ theme }) => theme.colors.text};
+    background-color: ${() => theme.colors.background};
+    color: ${() => theme.colors.text};
   }
 
   div#root {
@@ -25,11 +25,14 @@ export default createGlobalStyle`
   }
 
   h1 {
-    font: ${({ theme }) => theme.font.title};
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 4rem;
+    font-weight: bold;
   }
 
   h2, h3, h4, h5, h6 {
-    font: ${({ theme }) => theme.font.title};
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: bold;
     font-size: 2rem;
   }
 
